@@ -1,0 +1,30 @@
+.food-display {
+  min-width: 0;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.food-empty-state {
+  margin-top: 12px;
+}
+
+.food-empty-state p {
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+@media (max-width: 1080px) {
+  .food-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .food-grid {
+    grid-template-columns: 1fr;
+  }
+}

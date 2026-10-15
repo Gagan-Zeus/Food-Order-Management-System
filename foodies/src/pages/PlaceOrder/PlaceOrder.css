@@ -1,0 +1,56 @@
+.foodly-checkout { width: min(1180px, calc(100% - 64px)); margin: 0 auto; padding: 35px 0 88px; color: var(--ink, #1c1c1e); font-family: "DM Sans", sans-serif; }
+.foodly-checkout .foodly-checkout__header { display: grid; grid-template-columns: 86px minmax(0, 1fr) auto; align-items: center; gap: 24px; margin-bottom: 40px; }
+.foodly-checkout .foodly-checkout__logo { display: grid; place-items: center; width: 70px; height: 70px; border-radius: 20px; background: var(--surface, #fff); border: 1px solid var(--line, #e9e9ed); overflow: hidden; }
+.foodly-checkout .foodly-checkout__logo img { width: 58px; height: 58px; object-fit: contain; }
+.foodly-checkout .foodly-checkout__eyebrow { color: var(--coral, #f0443d); font-size: 11px; font-weight: 800; letter-spacing: 2px; margin: 0 0 10px; }
+.foodly-checkout h1 { font-family: "Manrope", sans-serif; font-weight: 800; letter-spacing: -2px; font-size: clamp(34px, 4vw, 48px); margin: 0 0 8px; }
+.foodly-checkout h1 span { color: var(--coral, #f0443d); }
+.foodly-checkout .foodly-checkout__header p:last-child { margin: 0; color: var(--muted, #777); font-size: 13px; }
+.foodly-checkout .foodly-checkout__back { display: flex; align-items: center; gap: 9px; border-radius: 30px; background: var(--ink, #1c1c1e); color: #fff; padding: 12px 18px; text-decoration: none; font-size: 12px; font-weight: 600; }
+.foodly-checkout .foodly-checkout__layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 26px; align-items: start; }
+.foodly-checkout .foodly-checkout__form-panel, .foodly-checkout .foodly-checkout__summary { background: var(--surface, #fff); border: 1px solid var(--line, #e9e9ed); border-radius: 22px; }
+.foodly-checkout .foodly-checkout__form-panel { padding: 32px; }
+.foodly-checkout .foodly-checkout__section-heading { display: flex; align-items: center; gap: 16px; padding-bottom: 24px; margin-bottom: 28px; border-bottom: 1px dashed var(--line, #e9e9ed); }
+.foodly-checkout .foodly-checkout__step { display: grid; place-items: center; width: 40px; height: 40px; flex-shrink: 0; border-radius: 13px; background: #fff0ee; color: var(--coral, #f0443d); font-family: "Manrope", sans-serif; font-size: 12px; font-weight: 800; }
+.foodly-checkout h2 { font-family: "Manrope", sans-serif; font-size: 18px; font-weight: 800; letter-spacing: -.5px; margin: 0 0 5px; }
+.foodly-checkout .foodly-checkout__section-heading p { color: var(--muted, #777); margin: 0; font-size: 12px; }
+.foodly-checkout form > label, .foodly-checkout .foodly-checkout__fields label { display: flex; flex-direction: column; gap: 8px; color: var(--ink, #1c1c1e); font-size: 11px; font-weight: 700; margin-bottom: 18px; }
+.foodly-checkout .foodly-checkout__fields { display: grid; gap: 16px; }
+.foodly-checkout .foodly-checkout__fields--two { grid-template-columns: 1fr 1fr; }
+.foodly-checkout .foodly-checkout__fields--three { grid-template-columns: 1.2fr 1fr .8fr; }
+.foodly-checkout input, .foodly-checkout select { box-sizing: border-box; width: 100%; height: 46px; border: 1px solid var(--line, #e9e9ed); border-radius: 11px; outline: none; background: var(--canvas, #f7f7f8); color: var(--ink, #1c1c1e); padding: 0 14px; font: 400 12px "DM Sans", sans-serif; }
+.foodly-checkout input::placeholder { color: #a2a2a7; }
+.foodly-checkout input:focus, .foodly-checkout select:focus { border-color: var(--coral, #f0443d); box-shadow: 0 0 0 3px rgba(240, 68, 61, .12); }
+.foodly-checkout select:disabled { color: #aaa; cursor: not-allowed; }
+.foodly-checkout .foodly-checkout__payment-note { display: flex; align-items: center; gap: 10px; margin: 10px 0 24px; padding: 13px 15px; border-radius: 11px; background: #f5f8f2; color: #60725e; font-size: 11px; line-height: 1.5; }
+.foodly-checkout .foodly-checkout__payment-note i { color: #4d9a52; font-size: 18px; }
+.foodly-checkout .foodly-checkout__payment-note strong { color: #385b3a; }
+.foodly-checkout .foodly-checkout__submit { display: flex; justify-content: center; align-items: center; gap: 13px; width: 100%; min-height: 52px; border: 0; border-radius: 30px; background: var(--coral, #f0443d); color: #fff; font: 700 13px "DM Sans", sans-serif; }
+.foodly-checkout .foodly-checkout__submit:disabled { cursor: not-allowed; opacity: .6; }
+.foodly-checkout .foodly-checkout__spinner { width: 14px; height: 14px; border: 2px solid rgba(255,255,255,.4); border-top-color: #fff; border-radius: 50%; animation: foodly-spin .8s linear infinite; }
+@keyframes foodly-spin { to { transform: rotate(360deg); } }
+.foodly-checkout .foodly-checkout__summary { padding: 28px; position: sticky; top: 25px; }
+.foodly-checkout .foodly-checkout__summary-top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; border-bottom: 1px dashed var(--line, #e9e9ed); }
+.foodly-checkout .foodly-checkout__summary-top span { color: var(--muted, #777); font-size: 11px; }
+.foodly-checkout .foodly-checkout__order-list { list-style: none; padding: 0; margin: 0; }
+.foodly-checkout .foodly-checkout__order-list li { display: flex; justify-content: space-between; gap: 14px; padding: 17px 0; border-bottom: 1px dashed var(--line, #e9e9ed); font-size: 12px; }
+.foodly-checkout .foodly-checkout__order-list li span { display: flex; min-width: 0; flex-direction: column; gap: 5px; }
+.foodly-checkout .foodly-checkout__order-list strong { font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.foodly-checkout .foodly-checkout__order-list small { color: var(--muted, #777); font-size: 10px; }
+.foodly-checkout .foodly-checkout__order-list b { white-space: nowrap; font-size: 12px; }
+.foodly-checkout .foodly-checkout__totals { margin: 22px 0 0; }
+.foodly-checkout .foodly-checkout__totals > div { display: flex; justify-content: space-between; margin-bottom: 14px; font-size: 12px; }
+.foodly-checkout .foodly-checkout__totals dt { color: var(--muted, #777); }
+.foodly-checkout .foodly-checkout__totals dd { margin: 0; font-weight: 600; }
+.foodly-checkout .foodly-checkout__totals .foodly-checkout__total { border-top: 1px dashed var(--line, #e9e9ed); padding-top: 20px; margin-top: 20px; font-size: 19px; }
+.foodly-checkout .foodly-checkout__total dt { color: var(--ink, #1c1c1e); font: 800 15px "Manrope", sans-serif; }
+.foodly-checkout .foodly-checkout__total small { color: var(--muted, #777); font: 400 10px "DM Sans", sans-serif; }
+.foodly-checkout .foodly-checkout__summary-empty { padding: 45px 0; text-align: center; color: var(--muted, #777); font-size: 12px; }
+.foodly-checkout .foodly-checkout__summary-empty i { font-size: 27px; color: var(--coral, #f0443d); }
+.foodly-checkout .foodly-checkout__summary-empty p { margin: 12px 0; }
+.foodly-checkout .foodly-checkout__summary-empty a { color: var(--coral, #f0443d); font-weight: 700; }
+.foodly-checkout .foodly-checkout__no-discount { display: flex; align-items: center; gap: 8px; color: var(--muted, #777); font-size: 10px; margin: 22px 0 0; }
+.foodly-checkout .foodly-checkout__no-discount i { color: var(--coral, #f0443d); }
+.foodly-checkout :is(button, a):focus-visible { outline: 3px solid var(--coral, #f0443d); outline-offset: 4px; }
+@media (max-width: 850px) { .foodly-checkout { width: calc(100% - 36px); } .foodly-checkout .foodly-checkout__layout { grid-template-columns: 1fr; } .foodly-checkout .foodly-checkout__summary { position: static; grid-row: 1; } }
+@media (max-width: 600px) { .foodly-checkout .foodly-checkout__header { grid-template-columns: 58px 1fr; gap: 14px; } .foodly-checkout .foodly-checkout__logo { width: 58px; height: 58px; } .foodly-checkout .foodly-checkout__logo img { width: 48px; height: 48px; } .foodly-checkout .foodly-checkout__back { grid-column: 1 / -1; justify-content: center; } .foodly-checkout .foodly-checkout__form-panel, .foodly-checkout .foodly-checkout__summary { padding: 22px; } .foodly-checkout .foodly-checkout__fields--two, .foodly-checkout .foodly-checkout__fields--three { grid-template-columns: 1fr; gap: 0; } }

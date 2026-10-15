@@ -1,0 +1,597 @@
+[
+  {
+    "name": "Hyderabadi Chicken Dum Biryani",
+    "category": "Biryani",
+    "description": "Aromatic basmati, tender chicken and saffron sealed and slow-cooked the old Hyderabad way.",
+    "price": 289,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Hyderabadi_Chicken_Biryani.jpg/960px-Hyderabadi_Chicken_Biryani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Lucknowi Mutton Biryani",
+    "category": "Biryani",
+    "description": "Fragrant yakhni rice with succulent mutton, fried onions and warm whole spices.",
+    "price": 359,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Awadhi_mutton_biryani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Garden Vegetable Biryani",
+    "category": "Biryani",
+    "description": "Seasonal vegetables, mint and toasted spices layered through fragrant basmati rice.",
+    "price": 229,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cashew_paneer_%26_Veg_Biriyani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Masala Dosa & Sambar",
+    "category": "South Indian",
+    "description": "Crisp rice-lentil crepe filled with potato masala, served with sambar and coconut chutney.",
+    "price": 159,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/960px-Rameshwaram_Cafe_Dosa.jpg"
+  },
+  {
+    "name": "Idli, Medu Vada & Sambar",
+    "category": "South Indian",
+    "description": "Cloud-soft idlis and golden vada with fresh chutneys and homestyle sambar.",
+    "price": 139,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Idli_and_vada_with_chutney_and_sambar.jpg/960px-Idli_and_vada_with_chutney_and_sambar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "South Indian Filter Coffee",
+    "category": "South Indian",
+    "description": "Bold, frothy filter coffee brewed fresh and poured the traditional way.",
+    "price": 89,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Filter_kaapi.JPG/960px-Filter_kaapi.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Delhi Butter Chicken",
+    "category": "North Indian",
+    "description": "Tandoori chicken folded into a silky tomato, butter and kasuri methi gravy.",
+    "price": 329,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/960px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Tandoori Paneer Tikka",
+    "category": "North Indian",
+    "description": "Charred paneer, peppers and onion marinated in yoghurt and aromatic tandoori masala.",
+    "price": 279,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Paneer_Tikka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Slow-Cooked Dal Makhani",
+    "category": "North Indian",
+    "description": "Black lentils simmered overnight with butter, cream and a gentle smoky finish.",
+    "price": 219,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Punjabi_style_Dal_Makhani.jpg/960px-Punjabi_style_Dal_Makhani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "MasalaBox Veg Thali",
+    "category": "Thali & Meals",
+    "description": "A complete meal with dal, seasonal sabzi, paneer, rice, roti, salad and dessert.",
+    "price": 299,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Indian_Thali_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Punjabi Family Meal",
+    "category": "Thali & Meals",
+    "description": "Rajma, jeera rice, two rotis, salad and a cooling raita for a hearty table.",
+    "price": 339,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Aloo_Paratha_Thali.jpg/960px-Aloo_Paratha_Thali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Amritsari Chole Rice Bowl",
+    "category": "Thali & Meals",
+    "description": "Slow-spiced chickpeas, fragrant rice, pickled onions and a spoon of cooling raita.",
+    "price": 199,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chole_Chawal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Mumbai Pav Bhaji",
+    "category": "Street Food",
+    "description": "Buttery toasted pav with a rich, spiced vegetable bhaji and fresh lime.",
+    "price": 169,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bambayya_Pav_bhaji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Samosa Chaat",
+    "category": "Street Food",
+    "description": "Crisp samosa topped with chickpeas, yoghurt, chutneys and crunchy sev.",
+    "price": 149,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Samosa_Chaat.jpg/960px-Samosa_Chaat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Kolkata Chicken Kathi Roll",
+    "category": "Street Food",
+    "description": "Paratha-wrapped chicken tikka with egg, onion, green chilli and a squeeze of lime.",
+    "price": 219,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Chicken-kathi-roll-recipe.jpg/960px-Chicken-kathi-roll-recipe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Chicken Hakka Noodles",
+    "category": "Indo-Chinese",
+    "description": "Wok-tossed noodles, tender chicken, vegetables and a bright chilli-soy glaze.",
+    "price": 249,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Chinese_Dishes_-_Dejavu_-_Meghalaya_-_DSC_005.jpg/960px-Chinese_Dishes_-_Dejavu_-_Meghalaya_-_DSC_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Crispy Gobi Manchurian",
+    "category": "Indo-Chinese",
+    "description": "Crisp cauliflower tossed in a tangy garlic, ginger and spring onion sauce.",
+    "price": 199,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gobi_manchurian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Chilli Paneer Dry",
+    "category": "Indo-Chinese",
+    "description": "Soft paneer, peppers and onion coated in a glossy, punchy Indo-Chinese sauce.",
+    "price": 229,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/A_full_plate_chilli_paneer_in_Kolkata%2C_West_Bengal.jpg/960px-A_full_plate_chilli_paneer_in_Kolkata%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Warm Gulab Jamun",
+    "category": "Desserts",
+    "description": "Soft milk dumplings soaked in cardamom and saffron syrup, served warm.",
+    "price": 99,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Gulab-jamun-wallpaper-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Kesar Rasmalai",
+    "category": "Desserts",
+    "description": "Delicate chenna discs in chilled saffron milk with pistachio and rose.",
+    "price": 149,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ras_Malai_2.JPG/960px-Ras_Malai_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Mango Malai Kulfi",
+    "category": "Desserts",
+    "description": "Dense, creamy kulfi with ripe mango, cardamom and a pistachio finish.",
+    "price": 129,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Kesari_Aam_Kulfi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Alphonso Mango Lassi",
+    "category": "Beverages",
+    "description": "Thick yoghurt blended with ripe mango and a delicate cardamom lift.",
+    "price": 129,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mango_Lassi.jpg/960px-Mango_Lassi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Cutting Masala Chai",
+    "category": "Beverages",
+    "description": "Strong Assam tea simmered with ginger, cardamom and a touch of jaggery.",
+    "price": 79,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Masala_chai.jpg/960px-Masala_chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Fresh Nimbu Soda",
+    "category": "Beverages",
+    "description": "Fresh lime, mint and sparkling soda with your choice of sweet or salted.",
+    "price": 89,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Fresh_Lime.JPG/960px-Fresh_Lime.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Kolkata Chicken Biryani",
+    "category": "Biryani",
+    "description": "Aromatic rice, tender chicken, potato and egg in the delicate Kolkata style.",
+    "price": 299,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Bengali_style_chicken_biryani%2C_Kolkata_-_West_Bengal_-_DSC_0020.jpg/960px-Bengali_style_chicken_biryani%2C_Kolkata_-_West_Bengal_-_DSC_0020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Chicken Tikka Biryani",
+    "category": "Biryani",
+    "description": "Smoky chicken tikka layered with basmati rice, mint, fried onions and saffron.",
+    "price": 319,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chicken_tikka_Biriyani.jpg/960px-Chicken_tikka_Biriyani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Egg Biryani",
+    "category": "Biryani",
+    "description": "Spiced basmati rice with masala-coated eggs, caramelised onions and fresh herbs.",
+    "price": 199,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Hyderabadi_egg_biryani.jpg/960px-Hyderabadi_egg_biryani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Keema Biryani",
+    "category": "Biryani",
+    "description": "Fragrant rice cooked with spiced minced mutton, peas, mint and whole spices.",
+    "price": 329,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Keema_Biryani.JPG/960px-Keema_Biryani.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Mutton Dum Biryani",
+    "category": "Biryani",
+    "description": "Slow-cooked mutton, saffron and aged basmati sealed together for a rich dum biryani.",
+    "price": 379,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mutton_Dum_Biryani.jpg/960px-Mutton_Dum_Biryani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Paneer Biryani",
+    "category": "Biryani",
+    "description": "Soft paneer, roasted vegetables and fragrant rice finished with mint and fried onions.",
+    "price": 249,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Biryani_in_Hyderabad.jpg/960px-Biryani_in_Hyderabad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Fish Biryani",
+    "category": "Biryani",
+    "description": "Delicate fish fillet layered with coastal spices, basmati rice and lemony herbs.",
+    "price": 349,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Fish_Biryani.JPG/960px-Fish_Biryani.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Plain Dosa & Chutney",
+    "category": "South Indian",
+    "description": "Golden, crisp dosa served with coconut chutney and hot sambar.",
+    "price": 119,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dosa_%28Plain%29.jpg/960px-Dosa_%28Plain%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Mysore Masala Dosa",
+    "category": "South Indian",
+    "description": "Crisp dosa spread with spicy red chutney, potato masala and fresh coconut chutney.",
+    "price": 179,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Mysore_Masala_Dosa.jpg/960px-Mysore_Masala_Dosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Rava Dosa",
+    "category": "South Indian",
+    "description": "Thin, lacy semolina dosa with cumin, green chilli and a side of sambar.",
+    "price": 169,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Rava_Dosa.jpg/960px-Rava_Dosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Onion Uttapam",
+    "category": "South Indian",
+    "description": "Soft, fluffy uttapam topped with onion, tomato, coriander and green chilli.",
+    "price": 159,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Onion_Uttapam.jpg/960px-Onion_Uttapam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Ven Pongal",
+    "category": "South Indian",
+    "description": "Comforting rice and lentils tempered with pepper, cumin, ginger and ghee.",
+    "price": 139,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg/960px-Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Medu Vada Sambar",
+    "category": "South Indian",
+    "description": "Crisp lentil doughnuts with sambar, coconut chutney and a touch of green chilli.",
+    "price": 129,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Medu_Vadas.JPG/960px-Medu_Vadas.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Pesarattu Upma",
+    "category": "South Indian",
+    "description": "Protein-rich green gram crepe paired with a soft, savoury upma filling.",
+    "price": 169,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pesarattu.jpg/960px-Pesarattu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Lemon Rice",
+    "category": "South Indian",
+    "description": "South Indian rice tempered with mustard, curry leaves, peanuts and fresh lemon.",
+    "price": 129,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Chitranna_and_Payasa.jpg/960px-Chitranna_and_Payasa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Curd Rice",
+    "category": "South Indian",
+    "description": "Cool, creamy yoghurt rice with ginger, curry leaves, mustard and pomegranate.",
+    "price": 119,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Curd_Rice.jpg/960px-Curd_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Chole Bhature",
+    "category": "North Indian",
+    "description": "Spiced Punjabi chickpeas with fluffy bhatura, pickled onions and fresh coriander.",
+    "price": 199,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Chole_Bhature_from_Nagpur.JPG/960px-Chole_Bhature_from_Nagpur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Palak Paneer",
+    "category": "North Indian",
+    "description": "Soft paneer cubes in a silky spinach gravy finished with cream and garam masala.",
+    "price": 249,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Palakpaneer_Rayagada_Odisha_0009.jpg/960px-Palakpaneer_Rayagada_Odisha_0009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Kadai Paneer",
+    "category": "North Indian",
+    "description": "Paneer, peppers and onion tossed in a bold tomato kadai masala with crushed coriander.",
+    "price": 259,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kadai_Paneer-Delhi-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Shahi Paneer",
+    "category": "North Indian",
+    "description": "Tender paneer in a royal cashew, tomato and cream gravy with gentle spices.",
+    "price": 269,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Shahi_Paneer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Rajma Chawal",
+    "category": "North Indian",
+    "description": "Slow-cooked Kashmiri kidney beans served with steamed rice, onion and lime.",
+    "price": 199,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Rajma_Chawal.jpg/960px-Rajma_Chawal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Aloo Paratha",
+    "category": "North Indian",
+    "description": "Whole-wheat paratha stuffed with spiced potato, served with yoghurt, pickle and butter.",
+    "price": 149,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Aloo_Paratha_North_Indian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Chicken Tikka",
+    "category": "North Indian",
+    "description": "Yoghurt-marinated chicken grilled in the tandoor with peppers and mint chutney.",
+    "price": 299,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chicken_Tikka.jpg/960px-Chicken_Tikka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Rogan Josh",
+    "category": "North Indian",
+    "description": "Kashmiri-style slow-braised mutton with fennel, ginger and warm whole spices.",
+    "price": 349,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Rogan_Josh_Kashmiri.jpg/960px-Rogan_Josh_Kashmiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Amritsari Fish",
+    "category": "North Indian",
+    "description": "Crisp, gram-flour battered fish with ajwain, lemon and mint chutney.",
+    "price": 299,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Amritsari_Fried_Fish.JPG/960px-Amritsari_Fried_Fish.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Garlic Naan Basket",
+    "category": "North Indian",
+    "description": "Soft tandoor-baked naan brushed with garlic butter and coriander.",
+    "price": 129,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Annapurna_Naan.jpg/960px-Annapurna_Naan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Gujarati Kathiyawadi Thali",
+    "category": "Thali & Meals",
+    "description": "A generous thali of dal, kadhi, shaak, rotli, rice, farsan, pickle and sweet.",
+    "price": 329,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gujarati_Thali.jpg/960px-Gujarati_Thali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Rajasthani Dal Baati Churma",
+    "category": "Thali & Meals",
+    "description": "Baked baati, panchmel dal, ghee-rich churma and spicy garlic chutney.",
+    "price": 349,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Dal_Baati_Churma.jpg/960px-Dal_Baati_Churma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "South Indian Mini Tiffin",
+    "category": "Thali & Meals",
+    "description": "A breakfast platter of idli, vada, mini dosa, pongal, sambar and chutney.",
+    "price": 229,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Aesthetic_Medu_Vadai.jpg/960px-Aesthetic_Medu_Vadai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Chicken Curry Rice Meal",
+    "category": "Thali & Meals",
+    "description": "Homestyle chicken curry with steamed rice, dal, salad and a cooling raita.",
+    "price": 279,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chicken_Curry_with_Rice.jpg/960px-Chicken_Curry_with_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Paneer Rice Meal",
+    "category": "Thali & Meals",
+    "description": "Paneer curry, jeera rice, dal fry, two rotis and a fresh seasonal salad.",
+    "price": 249,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mattar_Panir_with_white_basmatic_rice_%282189940059%29.jpg/960px-Mattar_Panir_with_white_basmatic_rice_%282189940059%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Mumbai Vada Pav",
+    "category": "Street Food",
+    "description": "Spiced potato vada tucked into a toasted pav with garlic chutney and fried chilli.",
+    "price": 99,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aran_Vada_Pav_Mumbai.jpg/960px-Aran_Vada_Pav_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Pani Puri",
+    "category": "Street Food",
+    "description": "Crisp puris filled with spiced potato, tangy tamarind water and fresh mint pani.",
+    "price": 119,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Crispy_Pani_Puri.jpg/960px-Crispy_Pani_Puri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Dahi Puri",
+    "category": "Street Food",
+    "description": "Crisp puris layered with potato, yoghurt, sweet chutney, sev and masala.",
+    "price": 139,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Dahi_Puri.jpg/960px-Dahi_Puri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Bhel Puri",
+    "category": "Street Food",
+    "description": "Puffed rice, sev, vegetables and chutneys tossed into Mumbai's favourite snack.",
+    "price": 119,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Behael_Puri_%286105489342%29.jpg/960px-Behael_Puri_%286105489342%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Aloo Tikki Chaat",
+    "category": "Street Food",
+    "description": "Crisp potato patties with chickpeas, yoghurt, tamarind chutney and sev.",
+    "price": 149,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Aloo_Tikki_served_with_chutneys.jpg/960px-Aloo_Tikki_served_with_chutneys.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Delhi Aloo Chaat",
+    "category": "Street Food",
+    "description": "Crisped potatoes with chaat masala, lime, coriander and sweet-spicy chutneys.",
+    "price": 139,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Aloo_Chaat.jpg/960px-Aloo_Chaat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Amritsari Kulcha",
+    "category": "Street Food",
+    "description": "Stuffed, tandoor-baked kulcha with chole, onion salad and tangy pickle.",
+    "price": 179,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Amritsari_Kulcha.jpg/960px-Amritsari_Kulcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Keema Pav",
+    "category": "Street Food",
+    "description": "Mumbai-style spiced minced mutton served with buttery pav and chopped onion.",
+    "price": 229,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Beef_Kheema_Pav.jpg/960px-Beef_Kheema_Pav.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Veg Hakka Noodles",
+    "category": "Indo-Chinese",
+    "description": "Wok-tossed noodles with crunchy vegetables, garlic, soy and spring onion.",
+    "price": 199,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Veg_Hakka_Noodles.jpg/960px-Veg_Hakka_Noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "category": "Indo-Chinese",
+    "description": "Fluffy wok-fried rice with egg, chicken, vegetables and savoury chilli-soy seasoning.",
+    "price": 239,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Chicken_fried_rice_-_Stir_Fry_by_CK_2023-12-02.jpg/960px-Chicken_fried_rice_-_Stir_Fry_by_CK_2023-12-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Schezwan Fried Rice",
+    "category": "Indo-Chinese",
+    "description": "Spicy wok-fried rice with vegetables, garlic and bold Schezwan chilli sauce.",
+    "price": 219,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Fried_rice_schezwan_style.jpg/960px-Fried_rice_schezwan_style.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Chicken Manchurian",
+    "category": "Indo-Chinese",
+    "description": "Crisp chicken tossed in a glossy Manchurian sauce with ginger, garlic and spring onion.",
+    "price": 269,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Chicken_Manchurian_%28Hyderabad_Style%29_%2811960049916%29.jpg/960px-Chicken_Manchurian_%28Hyderabad_Style%29_%2811960049916%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Veg Spring Rolls",
+    "category": "Indo-Chinese",
+    "description": "Crisp rolls filled with cabbage, carrot, peppers and aromatic wok seasoning.",
+    "price": 179,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Spring_rolls.jpg/960px-Spring_rolls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "American Chopsuey",
+    "category": "Indo-Chinese",
+    "description": "Crisp noodles topped with tangy vegetables, tomato sauce and a fried egg.",
+    "price": 229,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Homemade_American_chopsuey_01.jpg/960px-Homemade_American_chopsuey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Jalebi Rabri",
+    "category": "Desserts",
+    "description": "Crisp saffron jalebi paired with thick, chilled rabri and pistachio.",
+    "price": 149,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Awadhi_jalebi.jpg/960px-Awadhi_jalebi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Kaju Katli",
+    "category": "Desserts",
+    "description": "Silky cashew fudge finished with silver leaf and a delicate cardamom aroma.",
+    "price": 169,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Homemade_Kaju_Katli.jpg/960px-Homemade_Kaju_Katli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Gajar Ka Halwa",
+    "category": "Desserts",
+    "description": "Slow-cooked carrots with milk, khoya, cardamom and toasted nuts.",
+    "price": 139,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Gajar_ka_halwa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Shahi Tukda",
+    "category": "Desserts",
+    "description": "Golden bread, saffron rabri, rose syrup and pistachio in a royal Indian dessert.",
+    "price": 159,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Shahi_Tukda_-_Dessert_of_India.jpg/960px-Shahi_Tukda_-_Dessert_of_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Mishti Doi",
+    "category": "Desserts",
+    "description": "Traditional Bengali sweet yoghurt with a gentle caramel sweetness.",
+    "price": 109,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mishti_Doi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Moong Dal Halwa",
+    "category": "Desserts",
+    "description": "Rich roasted moong dal halwa with ghee, saffron and slivered almonds.",
+    "price": 149,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Moong_Dal_Halwa.JPG/960px-Moong_Dal_Halwa.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Mango Shrikhand",
+    "category": "Desserts",
+    "description": "Hung yoghurt blended with Alphonso mango, saffron and cardamom.",
+    "price": 139,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Shrikhand_london_kastoori.jpg/960px-Shrikhand_london_kastoori.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Coconut Modak",
+    "category": "Desserts",
+    "description": "Steamed rice-flour modak filled with coconut, jaggery and cardamom.",
+    "price": 129,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ukadiche_Modak.jpg/960px-Ukadiche_Modak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Rose Lassi",
+    "category": "Beverages",
+    "description": "Creamy yoghurt lassi perfumed with rose, cardamom and crushed pistachio.",
+    "price": 119,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Rose_Lassi.jpg/960px-Rose_Lassi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Salted Chaas",
+    "category": "Beverages",
+    "description": "Refreshing buttermilk with roasted cumin, coriander, ginger and black salt.",
+    "price": 79,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mint_lassi.jpg/960px-Mint_lassi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Badam Milk",
+    "category": "Beverages",
+    "description": "Chilled almond milk with saffron, cardamom and a little natural sweetness.",
+    "price": 109,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bapatla_Badam_Milk.jpg/960px-Bapatla_Badam_Milk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Jaljeera",
+    "category": "Beverages",
+    "description": "Tangy cumin, mint and tamarind cooler with a bright, refreshing finish.",
+    "price": 79,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Jaljeera.jpg/960px-Jaljeera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Thandai",
+    "category": "Beverages",
+    "description": "Festive milk cooler with almonds, fennel, pepper, rose and fragrant spices.",
+    "price": 129,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Thandai.jpg/960px-Thandai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Fresh Sugarcane Juice",
+    "category": "Beverages",
+    "description": "Pressed-to-order sugarcane juice with ginger, lime and a pinch of black salt.",
+    "price": 99,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sugarcane_juice.jpg/960px-Sugarcane_juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Rose Falooda",
+    "category": "Beverages",
+    "description": "Chilled rose milk with basil seeds, vermicelli, ice cream and pistachio.",
+    "price": 169,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Falooda.jpg/960px-Falooda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "name": "Cold Coffee",
+    "category": "Beverages",
+    "description": "Creamy chilled coffee blended with milk, cocoa and a scoop of vanilla ice cream.",
+    "price": 139,
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Iced_coffee.jpg/960px-Iced_coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+]

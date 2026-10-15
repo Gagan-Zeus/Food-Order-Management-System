@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>MasalaBox bowl mark</title>
+  <rect width="128" height="128" rx="32" fill="#f0443d"/>
+  <path fill="#fff7df" d="M28 56h72c0 25-15 43-36 43S28 81 28 56Z"/>
+  <path fill="#ffd66b" d="M22 52h84c0 7-7 12-15 12H37c-8 0-15-5-15-12Z"/>
+  <path fill="none" stroke="#fff7df" stroke-linecap="round" stroke-width="7" d="M42 38c-3-8 4-12 0-20m22 20c-3-8 4-12 0-20m22 20c-3-8 4-12 0-20"/>
+  <path fill="none" stroke="#f0443d" stroke-linecap="round" stroke-width="5" d="M43 76h42m-35 11h28"/>
+</svg>

@@ -1,0 +1,211 @@
+.app {
+  min-height: 100vh;
+}
+
+.route-transition {
+  position: relative;
+  min-height: calc(100vh - 78px);
+  animation: page-enter 460ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.route-transition-bar {
+  position: fixed;
+  z-index: 30;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, var(--coral), #ff9b74, transparent);
+  transform-origin: left;
+  animation: route-progress 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.page-shell {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.page-section {
+  padding: 48px 0;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--coral);
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1.55rem, 2.5vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+}
+
+.section-copy {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.primary-button,
+.secondary-button,
+.ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 21px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.primary-button:active,
+.secondary-button:active,
+.ghost-button:active,
+button:active,
+a:active {
+  transform: scale(0.96);
+}
+
+button:disabled {
+  cursor: wait;
+}
+
+.button-spinner {
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: button-spin 700ms linear infinite;
+}
+
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes route-progress {
+  0% { opacity: 0; transform: scaleX(0); }
+  15% { opacity: 1; }
+  75% { opacity: 1; transform: scaleX(0.78); }
+  100% { opacity: 0; transform: scaleX(1); }
+}
+
+@keyframes button-spin {
+  to { transform: rotate(360deg); }
+}
+
+.primary-button {
+  color: #fff;
+  background: var(--coral);
+  box-shadow: 0 12px 24px rgba(240, 68, 61, 0.2);
+}
+
+.primary-button:hover {
+  color: #fff;
+  background: var(--coral-dark);
+  box-shadow: 0 16px 28px rgba(240, 68, 61, 0.28);
+  transform: translateY(-2px);
+}
+
+.secondary-button {
+  color: var(--ink);
+  background: #fff;
+  border-color: var(--line);
+}
+
+.secondary-button:hover,
+.ghost-button:hover {
+  color: var(--coral);
+  border-color: rgba(240, 68, 61, 0.35);
+  transform: translateY(-2px);
+}
+
+.ghost-button {
+  min-height: 42px;
+  padding: 0 14px;
+  color: var(--muted);
+  background: transparent;
+  border-color: var(--line);
+}
+
+.muted-link {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.muted-link:hover {
+  color: var(--coral);
+}
+
+.empty-state {
+  padding: 54px 24px;
+  color: var(--muted);
+  text-align: center;
+  background: var(--surface);
+  border: 1px dashed #d8d8e0;
+  border-radius: 24px;
+}
+
+.empty-state i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+  color: var(--coral);
+  font-size: 1.6rem;
+  background: #fff1f0;
+  border-radius: 20px;
+}
+
+.empty-state h3 {
+  margin: 0 0 8px;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    width: min(100% - 30px, 1180px);
+  }
+
+  .page-section {
+    padding: 34px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-transition,
+  .route-transition-bar {
+    animation: none;
+  }
+
+  .primary-button,
+  .secondary-button,
+  .ghost-button,
+  button,
+  a {
+    transition: none !important;
+  }
+}

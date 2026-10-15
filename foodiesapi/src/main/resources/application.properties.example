@@ -1,0 +1,23 @@
+spring.application.name=masalabox-api
+server.port=8080
+
+# Food image upload limits
+spring.servlet.multipart.max-file-size=5MB
+spring.servlet.multipart.max-request-size=6MB
+
+# MongoDB Atlas connection string, for example:
+# mongodb+srv://<username>:<password>@<cluster>.mongodb.net/foodiesdb?retryWrites=true&w=majority
+spring.data.mongodb.uri=${MONGODB_URI}
+
+# AWS S3
+aws.access.key=${AWS_ACCESS_KEY_ID}
+aws.secret.key=${AWS_SECRET_ACCESS_KEY}
+aws.region=${AWS_REGION:ap-south-1}
+aws.s3.bucket.name=${AWS_S3_BUCKET_NAME}
+
+# JWT signing secret
+jwt.secret.key=${JWT_SECRET_KEY}
+
+# Razorpay test-mode credentials
+razorpay.key.id=${RAZORPAY_KEY_ID}
+razorpay.key.secret=${RAZORPAY_KEY_SECRET}
